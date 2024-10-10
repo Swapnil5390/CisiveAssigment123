@@ -1,0 +1,20 @@
+  <div class="container">
+  <h2>Employment Verification</h2>
+  <form (ngSubmit)="submitForm()">
+    <div>
+      <label>Employee ID:</label>
+      <input type="number" [(ngModel)]="employeeId" name="employeeId" required>
+    </div>
+    <div>
+      <label>Company Name:</label>
+      <input type="text" [(ngModel)]="companyName" name="companyName" required>
+    </div>
+    <div>
+      <label>Verification Code:</label>
+      <input type="text" [(ngModel)]="verificationCode" name="verificationCode" required>
+    </div>
+    <button type="submit">Verify Employment</button>
+  </form>
+  <p  class*ngIf="result">Result: {{ result }}</p>
+</div> 
+

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApplicationApi.Controllers.VerificationController",
+    "Method": "VerifyEmployment",
+    "RelativePath": "api/Verification/verify-employment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "WebApplicationApi.Model.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
